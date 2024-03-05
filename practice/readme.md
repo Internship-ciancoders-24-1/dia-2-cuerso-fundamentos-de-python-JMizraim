@@ -27,3 +27,8 @@
 - Ciencias
 - CLI (Interfaz de la línea de comandos)
 - Aplicaciones web
+
+## Python 2 vs 3 & PEPs
+
+Los PEP son Python Enhancement Proposals
+-  Describen cambios al lenguaje o a los estándares alrededor
