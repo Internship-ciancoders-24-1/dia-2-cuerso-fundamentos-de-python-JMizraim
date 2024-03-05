@@ -19,3 +19,11 @@
 - Programación orientada a objetos con Python
 - Implementando Click al proyecto y entornos virtuales
 - Manejo de excepciones
+
+## Python en el mundo real
+
+### Aplicaciones más comunes
+
+- Ciencias
+- CLI (Interfaz de la línea de comandos)
+- Aplicaciones web
