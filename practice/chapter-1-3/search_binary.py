@@ -12,8 +12,9 @@ def binary_search(data, target, low, high):
     else:
         return binary_search(data, target, mid + 1, high)
     
-data = [random.randint(0, 100) for _ in range(10)]
-data.sort()
-print(data)
-target = int(input("What's number would you like to find?: "))
-print(binary_search(data, target, 0, len(data) -1))
+if __name__ == "__main__":
+    data = [random.randint(0, 100) for _ in range(10)]
+    data.sort()
+    print(data)
+    target = int(input("What's number would you like to find?: "))
+    print(binary_search(data, target, 0, len(data) -1))

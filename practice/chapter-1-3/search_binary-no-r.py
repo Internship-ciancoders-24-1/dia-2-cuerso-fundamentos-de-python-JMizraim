@@ -15,8 +15,9 @@ def binary_search(data, target):
     
     return False
 
-data = [random.randint(0, 100) for _ in range(10)]
-data.sort()
-print(data)
-target = int(input("What's number would you like to find?: "))
-print(binary_search(data, target))
+if __name__ == "__main__":
+    data = [random.randint(0, 100) for _ in range(10)]
+    data.sort()
+    print(data)
+    target = int(input("What's number would you like to find?: "))
+    print(binary_search(data, target))
